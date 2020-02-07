@@ -1,0 +1,24 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "Get Gold, BTC, Silver and Palladium prices to JSON",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "btc-value": "2.1.1",
+    "express": "4.17.1",
+    "gold-prices": "1.0.1",
+    "goldprice": "1.0.0",
+    "mongodb": "2.2.16",
+    "mongoose": "5.8.11",
+    "node-cache": "5.1.0",
+    "nodemon": "2.0.2",
+    "price-of-gold": "1.0.3"
+  }
+}
